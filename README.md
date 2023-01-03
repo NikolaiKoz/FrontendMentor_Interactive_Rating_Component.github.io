@@ -118,6 +118,9 @@ As for creating folders with the same name as scss files, it is not necessary to
 
     - 📄 main.scss
 
+- 📁 dist
+  - 📁 css
+    - 📄 main.css
 
 * This scheme consists of several folders with different categories of styles:
 
@@ -169,5 +172,7 @@ Regarding the organization of the style files and folders, SUITCSS does not have
 </code>
 
 >  [x]  [SUIT CSS naming conventions](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md)
+
+#
 
 
