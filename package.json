@@ -4,7 +4,8 @@
   "description": "Interactive rating component challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-sass": "sass --watch ./src/scss:./dist/css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/NikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io/issues"
   },
-  "homepage": "https://github.com/NikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io#readme"
+  "homepage": "https://github.com/NikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
 }

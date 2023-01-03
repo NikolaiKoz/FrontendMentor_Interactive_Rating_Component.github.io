@@ -101,4 +101,11 @@ Con esto, podrías utilizar el componente de botón en tu HTML de la siguiente m
 En este ejemplo, el componente de botón se compone de dos estilos: uno para el botón en sí y otro para los estados de hover y focus. Además, se incluyen dos modificadores para los botones primarios y secundarios.
 
 
+# COMAND LINE
+
+Inicializar un proyecto de node
+npm init
+
+SASS
+npm install -g sass
 
