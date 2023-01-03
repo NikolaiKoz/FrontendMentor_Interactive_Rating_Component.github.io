@@ -108,4 +108,12 @@ npm init
 
 SASS
 npm install -g sass
+SCRIPT: "run-sass": "sass --watch ./src/scss:./dist/css"
+
+
+Babel
+npm install --save-dev @babel/core @babel/cli @babel/preset-env
+SCRIPT: "run-babel": "babel ./src/js -d ./dist/js"
+
+
 
