@@ -1,3 +1,21 @@
-h1{color: red;
-    background-color: aquamarine;
-}
+// 01-settings
+@import './01-settings/_settings.scss';
+
+// 02-tools
+@import url('./02-tools/_tools.scss');
+
+// 03-generic
+@import './03-generic/_normalice.scss';
+@import url('./03-generic/_generic.scss');
+
+// 04-elements
+@import url('./04-elements/_elements.scss');
+
+// 05-objects
+@import url('./05-objects/_objects.scss');
+
+// 06-components
+@import url('./06-components/_components.scss');
+
+// 07-utilities
+@import url('./07-utilities/_utilities.scss');
