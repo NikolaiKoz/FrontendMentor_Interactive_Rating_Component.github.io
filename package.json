@@ -1,0 +1,19 @@
+{
+  "name": "frontendmentor_interactive_rating_component.github.io",
+  "version": "1.0.0",
+  "description": "Interactive rating component challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io.git"
+  },
+  "author": "Jose Luis Vallejos",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/NikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io/issues"
+  },
+  "homepage": "https://github.com/NikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io#readme"
+}
