@@ -89,30 +89,102 @@ button {
 }
 
 .Container {
-  background-color: rebeccapurple;
+  background: linear-gradient(hsl(230deg, 9%, 13%), hsl(228deg, 9%, 10%));
   height: 20em;
   width: 21em;
-  padding: 1em;
+  padding: 1.5em;
   border-radius: 0.8em;
+  font-family: "Overpass", sans-serif;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1rem;
 }
 .Container-containerStar {
-  background-color: red;
+  background-color: hsl(213deg, 19%, 18%);
   height: 2em;
   width: 2em;
-  border-radius: 5em;
+  border-radius: 50%;
+  margin-bottom: 1em;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
 }
-.Container-containerStar-containerFigure-star {
-  background-color: yellow;
-  width: 100%;
+.Container-containerStar-star {
   display: block;
 }
 .Container-title {
-  color: white;
-  font-size: 1.5em;
-  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+.Container-text {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+  color: hsl(217deg, 12%, 63%);
+}
+.Container-ratio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-bottom: 1em;
+}
+.Container-ratio-btn {
+  background-color: hsl(213deg, 19%, 18%);
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.Container-ratio-btn-number {
+  padding-top: 0.1em;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.Container-ratio-btn:hover {
+  background-color: hsl(217deg, 12%, 63%);
+  transition: all 0.2s ease-in-out;
+}
+.Container-submitBtn {
+  background-color: hsl(25deg, 97%, 53%);
+  height: 2.5em;
+  width: 100%;
+  border-radius: 1.5em;
+  color: hsl(0deg, 0%, 100%);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.Container-submitBtn-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.Container-submitBtn:hover {
+  background: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+  transition: all 0.2s ease-in-out;
+}
+
+.isActive {
+  background: hsl(25deg, 97%, 53%);
+}
+
+.isActive:hover {
+  background: hsl(25deg, 97%, 53%);
+  transition: all 0.2s ease-in-out;
 }
 
 /*# sourceMappingURL=main.css.map */

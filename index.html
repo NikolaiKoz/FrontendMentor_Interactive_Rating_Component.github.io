@@ -17,18 +17,15 @@
   <body>
     <main>
       <section class="Container">
-
         <figure class="Container-containerStar">
-          <picture class="Container-containerStar-containerFigure">
-            <img
-              src="./assets/icons/icon-star.svg"
-              alt="star"
-              class="Container-containerStar-containerfigure-star"
-            />
-          </picture>
+          <img
+            class="Container-containerStar-star"
+            src="./assets/icons/icon-star.svg"
+            alt="Star icon"
+          />
         </figure>
 
-        <h1 class="Container-title">how did we do?</h1>
+        <h1 class="Container-title">How did we do?</h1>
 
         <p class="Container-text">
           Please let us know how we did with your support request. All feedback
@@ -36,18 +33,24 @@
         </p>
 
         <div class="Container-ratio">
-          <button class="Container-ratio-btn">1</button>
-          <button class="Container-ratio-btn">2</button>
-          <button class="Container-ratio-btn">3</button>
-          <button class="Container-ratio-btn Container-ratio-btn.isHover">
-            4
+          <button class="Container-ratio-btn">
+            <span class="Container-ratio-btn-number">1</span>
           </button>
-          <button class="Container-ratio-btn Container-ratio-btn.isActive">
-            5
+          <button class="Container-ratio-btn">
+            <span class="Container-ratio-btn-number">2</span>
+          </button>
+          <button class="Container-ratio-btn">
+            <span class="Container-ratio-btn-number">3</span>
+          </button>
+          <button class="Container-ratio-btn">
+            <span class="Container-ratio-btn-number">4</span>
+          </button>
+          <button class="Container-ratio-btn Container-ratio-btn isActive">
+            <span class="Container-ratio-btn-number">5</span>
           </button>
         </div>
 
-        <button class="Container-submitBtn">submit</button>
+        <button class="Container-submitBtn"><span class="Container-submitBtn-text">submit</span></button>
       </section>
     </main>
   </body>

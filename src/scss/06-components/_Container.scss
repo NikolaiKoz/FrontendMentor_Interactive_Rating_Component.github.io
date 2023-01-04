@@ -1,39 +1,112 @@
 .Container {
-    background-color: rebeccapurple;
+    background: linear-gradient( $Natural--mediumGray, $Natural--gradientGray);
     height: 20em;
     width: 21em;
-    padding: 1em;
+    padding: 1.5em;
     border-radius: .8em;
+    font-family: 'Overpass', sans-serif;
+    color: $Natural--white;
+    font-size: 1rem;
 
     &-containerStar{
-        background-color: red;
+        background-color: $Natural--darkBlue;
         height: 2em;
         width: 2em;
-        border-radius: 5em;
+        border-radius: 50%;
+        margin-bottom: 1em;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex($justify: center, $align: center);
 
-        &-containerFigure{
-            &-star{
-                background-color: yellow;
-                width: 100%;
-                display: block;
-            }
+        &-star{
+            display: block;
         }
 
     }
 
     &-title{
-        color: white;
-        font-size: 1.5em;
-        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 1em;
+    }
+
+    &-text{
+        font-size: .9rem;
+        font-weight: 400;
+        margin-bottom: 1em;
+        color: $Natural--ligthGray;
+    }
+
+    &-ratio{
+
+        @include flex($justify: space-between, $align: center);
+        margin-bottom: 1em;
+
+        &-btn{
+            background-color: $Natural--darkBlue;
+            height: 2.2em;
+            width: 2.2em;
+            border-radius: 50%;
+            cursor: pointer;
+
+            @include flex($justify: center, $align: center);
+
+            &-number{
+                padding-top: .1em;
+                font-size: .8rem;
+                font-weight: 400;
+            }
+
+        }
+
+        &-btn:hover{
+            background-color: $Natural--ligthGray;
+            transition: all .2s ease-in-out;
+
+        }
+
+    }
+
+    &-submitBtn{
+        background-color: $Primary--orange;
+        height: 2.5em;
+        width: 100%;
+        border-radius: 1.5em;
+        color: $Natural--white;
+        cursor: pointer;
+
+        @include flex($justify: center, $align: center);
+
+        &-text{
+            font-size: .8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: .2rem;
+        }
+
+
+        }
+
+    &-submitBtn:hover{
+        background: $Natural--white;
+        color: $Primary--orange;
+        transition: all .2s ease-in-out;
+
+    }
+
+
+    }
+
+    .isActive{
+        background: $Primary--orange;
+    }
+
+    .isActive:hover{
+        background: $Primary--orange;
+        transition: all .2s ease-in-out;
     }
 
 
 
 
-}
 
 
