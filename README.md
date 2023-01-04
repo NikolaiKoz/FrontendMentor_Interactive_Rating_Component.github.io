@@ -25,25 +25,13 @@ SCRIPT: "run-babel": "babel ./src/js -d ./dist/js"
 COMIENZA AQUI
 # Interactive Rating Component
 
-- [About the author](#about-the-author)
 - [About the project](#about-the-project)
 - [Architectures](#architectures)
   - [ITCSS](#itcss)
 - [Metodologies](#metodologies)
   - [SUITCSS](#suitcss)
+- [Tools](#tools)
 
-## About the author
-
-<div align="center">
-
-| <img src="https://avatars.githubusercontent.com/u/98178495?v=4" alt="Vallejos, Jose Luis" height="200px"> |
-| :-: |
-| Vallejos, Jose Luis |
-| Frontend Developer |
-| [<img src="./assets/images/GitHub-Logo.png" alt="Vallejos, Jose Luis" height="100px">](https://github.com/NikolaiKoz) |
-| [<img src="./assets/images/Linkedin-Logo.png" alt="Vallejos, Jose Luis" height="200px">](https://www.linkedin.com/in/vallejosjoseluis/) |
-
-</div>
 
 ## About the project
 
@@ -122,21 +110,21 @@ As for creating folders with the same name as scss files, it is not necessary to
   - 📁 css
     - 📄 main.css
 
-* This scheme consists of several folders with different categories of styles:
+* **This scheme consists of several folders with different categories of styles:**
 
-- The "settings" folder includes files with variables for colors and fonts.
-- The "tools" folder includes files with functions and mixins.
-- The "generic" folder includes files with generic styles, such as reset and normalize.
-- The "elements" folder contains files with styles for common HTML elements, such as buttons and forms.
-- The "objects" folder includes files with styles for layout objects, such as layout and grid.
-- The "components" folder contains files with styles for UI components, such as the header and footer.
-- The "utilities" folder includes files with utility styles, such as display and text alignment.
-- The "main.scss" file is the main file that is used to import all other style files.
-- It is important to note that this is just an example and you can modify it according to your needs.
-- The main idea is to follow the logical hierarchy of ITCSS and to organize its styles in a clear and coherent way.
-- All imported files in main.scss will be compiled and transformed into a single main.css file
+  - The "settings" folder includes files with variables for colors and fonts.
+  - The "tools" folder includes files with functions and mixins.
+  - The "generic" folder includes files with generic styles, such as reset and normalize.
+  - The "elements" folder contains files with styles for common HTML elements, such as buttons and forms.
+  - The "objects" folder includes files with styles for layout objects, such as layout and grid.
+  - The "components" folder contains files with styles for UI components, such as the header and footer.
+  - The "utilities" folder includes files with utility styles, such as display and text alignment.
+  - The "main.scss" file is the main file that is used to import all other style files.
+  - It is important to note that this is just an example and you can modify it according to your needs.
+  - The main idea is to follow the logical hierarchy of ITCSS and to organize its styles in a clear and coherent way.
+  - All imported files in main.scss will be compiled and transformed into a single main.css file
 
->  [x]  [IT CSS architecture](https://developer.helpscout.com/seed/glossary/itcss/#:~:text=ITCSS%20is%20a%20CSS%20architecture%20created%20by%20Harry%20Roberts.&text=It's%20a%20modern%2C%20and%20very,as%20an%20upside%2Ddown%20triangle.)
+- [x] [IT CSS architecture](https://developer.helpscout.com/seed/glossary/itcss/#:~:text=ITCSS%20is%20a%20CSS%20architecture%20created%20by%20Harry%20Roberts.&text=It's%20a%20modern%2C%20and%20very,as%20an%20upside%2Ddown%20triangle.)
 
 #
 
@@ -171,7 +159,11 @@ Regarding the organization of the style files and folders, SUITCSS does not have
 
 </code>
 
->  [x]  [SUIT CSS naming conventions](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md)
+[x] [SUIT CSS naming conventions](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md)
+
+#
+
+## Tools
 
 #
 
