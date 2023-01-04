@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="./dist/css/main.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./dist/css/main.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/icons/favicon-32x32.png"
+    />
 
-  <title>Frontend Mentor | Interactive rating component</title>
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main>
+      <section class="Container">
 
-</head>
-<body>
+        <figure class="Container-containerStar">
+          <picture class="Container-containerStar-containerFigure">
+            <img
+              src="./assets/icons/icon-star.svg"
+              alt="star"
+              class="Container-containerStar-containerfigure-star"
+            />
+          </picture>
+        </figure>
 
-  <main>
+        <h1 class="Container-title">how did we do?</h1>
 
-    <section class="Container">
+        <p class="Container-text">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
 
-      <picture class="Container-containerStar">
-        <img src="./assets/icons/icon-star.svg" alt="star" class="Container-containerStar-star">
-      </picture>
+        <div class="Container-ratio">
+          <button class="Container-ratio-btn">1</button>
+          <button class="Container-ratio-btn">2</button>
+          <button class="Container-ratio-btn">3</button>
+          <button class="Container-ratio-btn Container-ratio-btn.isHover">
+            4
+          </button>
+          <button class="Container-ratio-btn Container-ratio-btn.isActive">
+            5
+          </button>
+        </div>
 
-      <h2 class="Container-title">how did we do?</h2>
-
-      <p class="Container-text">Please let us know how we did with your support request. All feedback is appreciated
-        to help us improve our offering!</p>
-
-      <div class="Container-ratio">
-        <button class="Container-ratio-btn">1</button>
-        <button class="Container-ratio-btn">2</button>
-        <button class="Container-ratio-btn">3</button>
-        <button class="Container-ratio-btn Container-ratio-btn.isHover">4</button>
-        <button class="Container-ratio-btn Container-ratio-btn.isActive">5</button>
-      </div>
-
-      <button class="Container-submitBtn">submit</button>
-
-
-
-    </section>
-
-
-
-
-
-  </main>
-
-
-</body>
+        <button class="Container-submitBtn">submit</button>
+      </section>
+    </main>
+  </body>
 </html>

@@ -2,6 +2,38 @@
     background-color: rebeccapurple;
     height: 20em;
     width: 21em;
-    margin: 8em auto;
+    padding: 1em;
+    border-radius: .8em;
+
+    &-containerStar{
+        background-color: red;
+        height: 2em;
+        width: 2em;
+        border-radius: 5em;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-containerFigure{
+            &-star{
+                background-color: yellow;
+                width: 100%;
+                display: block;
+            }
+        }
+
+    }
+
+    &-title{
+        color: white;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+
+
+
 }
+
 
