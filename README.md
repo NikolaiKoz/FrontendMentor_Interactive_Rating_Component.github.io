@@ -31,11 +31,31 @@ COMIENZA AQUI
 - [Metodologies](#metodologies)
   - [SUITCSS](#suitcss)
 - [Tools](#tools)
+  - [Figma](#figma)
+  - [Slack](#slack)
+  - [Jira](#jira)
+  - [SASS](#sass)
+  - [SassDoc](#sassdoc)
+  - [Babel](#babel)
+  - [JsDoc](#jsdoc)
 
 
 ## About the project
 
 * This is a nice, small project to practice handling user interactions and updating the DOM. It is a simple project to implement the new technologies that I am learning in a single project.
+
+<div align="center">
+
+  | Movile first 375px| Desktop 1440px |
+  | :-: | :-: |
+  | <img width=300 alt="Desktop desing" src="./assets/design/mobile-design.jpg" /> | <img width=700 alt="Desktop desing" src="./assets/design/desktop-preview.jpg" /> |
+  | <img width=300 alt="Desktop desing" src="./assets/design/mobile-thank-you-state.jpg" /> | <img width=700 alt="Desktop desing" src="./assets/design/desktop-thank-you-state.jpg" /> |
+
+  | Active state |
+  | :-: |
+  | <img width=1000 alt="Desktop desing" src="./assets/design/active-states.jpg" /> |
+
+</div>
 
 - [x] Figma
 - [x] Slack
@@ -168,6 +188,20 @@ Regarding the organization of the style files and folders, SUITCSS does not have
 #
 
 ## Tools
+
+### Figma
+
+### Slack
+
+### Jira
+
+### SASS
+
+### SassDoc
+
+### Babel
+
+### JsDoc
 
 #
 
