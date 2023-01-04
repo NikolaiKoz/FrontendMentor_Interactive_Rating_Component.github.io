@@ -37,9 +37,6 @@ The designs were created to the following widths:
 em para medidas de caja
 rem para medidas de texto
 
-  <!-- Rating state start -->
-
-  How did we do?
 
   Please let us know how we did with your support request. All feedback is appreciated
   to help us improve our offering!
