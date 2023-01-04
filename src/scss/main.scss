@@ -3,20 +3,20 @@
 @import './01-settings/_typography.scss';
 
 // 02-tools
-@import url('./02-tools/_tools.scss');
+@import './02-tools/_tools.scss';
 
 // 03-generic
 @import './03-generic/_normalice.scss';
-@import url('./03-generic/_generic.scss');
 
 // 04-elements
-@import url('./04-elements/_elements.scss');
+@import './04-elements/_body.scss';
+@import './04-elements/_main.scss';
 
 // 05-objects
-@import url('./05-objects/_objects.scss');
+@import './05-objects/_objects.scss';
 
 // 06-components
-@import url('./06-components/_components.scss');
+@import './06-components/_Container.scss';
 
-// 07-utilities
-@import url('./07-utilities/_utilities.scss');
+// 07-trumps
+@import './07-trumps/_trumps.scss';
