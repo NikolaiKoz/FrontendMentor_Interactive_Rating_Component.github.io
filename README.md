@@ -37,12 +37,15 @@ COMIENZA AQUI
 
 * This is a nice, small project to practice handling user interactions and updating the DOM. It is a simple project to implement the new technologies that I am learning in a single project.
 
-- [x] SASS
-- [x] Babel
-- [x] Jsdoc
 - [x] Figma
+- [x] Slack
+- [x] Jira
+- [x] SASS
 - [x] SuitCSS
 - [x] ITCSS
+- [x] Sassdoc
+- [x] Babel
+- [x] Jsdoc
 
 
 <div align="center">
