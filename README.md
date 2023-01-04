@@ -127,7 +127,7 @@ As for creating folders with the same name as scss files, it is not necessary to
   - The main idea is to follow the logical hierarchy of ITCSS and to organize its styles in a clear and coherent way.
   - All imported files in main.scss will be compiled and transformed into a single main.css file
 
-- [x] <a href="https://developer.helpscout.com/seed/glossary/itcss/#:~:text=ITCSS%20is%20a%20CSS%20architecture%20created%20by%20Harry%20Roberts.&text=It's%20a%20modern%2C%20and%20very,as%20an%20upside%2Ddown%20triangle." title="it css architecture" target='_blank'>IT CSS architecture</a>
+- [x] <a href="https://developer.helpscout.com/seed/glossary/itcss/#:~:text=ITCSS%20is%20a%20CSS%20architecture%20created%20by%20Harry%20Roberts.&text=It's%20a%20modern%2C%20and%20very,as%20an%20upside%2Ddown%20triangle." title="it css architecture" target="_blank">IT CSS architecture</a>
 
 
 #
@@ -149,7 +149,6 @@ Regarding the organization of the style files and folders, SUITCSS does not have
 
 **Example SUITCSS methodology:**
 
-<code>
 
 .MyComponent {}
 
@@ -161,9 +160,8 @@ Regarding the organization of the style files and folders, SUITCSS does not have
 
 .MyComponent-anotherPart {}
 
-</code>
 
-- [x] <a href="https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md" title="suit css documentation" target='_blank'>SUIT CSS naming conventions</a>
+- [x] <a href="https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md" title="suit css documentation" target="_blank">SUIT CSS naming conventions</a>
 
 
 
