@@ -24,7 +24,15 @@ const choiseOption = () => {
                 btn.classList.remove('isActive');
             });
             btn.classList.add('isActive');
-            choise = btn.children[0].textContent;
+            /**
+             * @name: choise
+             * @description: This variable is the value of the button that was clicked and is converted to a number.
+             * @type: number
+             * @example: 1, 2, 3, 4, 5
+             * @default: ''
+             * @see: thankYou.js
+             */
+            choise = parseInt(btn.children[0].textContent);
             thankYou(choise);
         });
 
