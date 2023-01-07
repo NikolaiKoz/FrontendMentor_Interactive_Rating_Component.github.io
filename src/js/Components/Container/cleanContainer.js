@@ -13,7 +13,7 @@ const cleanContainer = () => {
    * @description: This variable is the Container of the card.
    * @type: HTMLElement
    */
-  const container = document.getElementsByClassName("Container")[0];
+  const container = document.getElementsByClassName("Card")[0];
 
   container.classList.add("isDesappear");
 

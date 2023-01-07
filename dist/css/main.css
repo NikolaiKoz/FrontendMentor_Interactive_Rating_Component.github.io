@@ -88,7 +88,7 @@ button {
   appearance: none;
 }
 
-.Container {
+.Card {
   background: linear-gradient(hsl(230deg, 9%, 13%), hsl(228deg, 9%, 10%));
   height: 20em;
   width: 21em;
@@ -98,7 +98,7 @@ button {
   color: hsl(0deg, 0%, 100%);
   font-size: 1rem;
 }
-.Container-containerStar {
+.Card-containerStar {
   background-color: hsl(213deg, 19%, 18%);
   height: 2em;
   width: 2em;
@@ -110,21 +110,21 @@ button {
   align-items: center;
   flex-wrap: nowrap;
 }
-.Container-containerStar-star {
+.Card-containerStar-star {
   display: block;
 }
-.Container-title {
+.Card-title {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 1em;
 }
-.Container-text {
+.Card-text {
   font-size: 0.9rem;
   font-weight: 400;
   margin-bottom: 1em;
   color: hsl(217deg, 12%, 63%);
 }
-.Container-ratio {
+.Card-ratio {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -132,7 +132,7 @@ button {
   flex-wrap: nowrap;
   margin-bottom: 1em;
 }
-.Container-ratio-btn {
+.Card-ratio-btn {
   background-color: hsl(213deg, 19%, 18%);
   height: 2.2em;
   width: 2.2em;
@@ -144,16 +144,16 @@ button {
   align-items: center;
   flex-wrap: nowrap;
 }
-.Container-ratio-btn-number {
+.Card-ratio-btn-number {
   padding-top: 0.1em;
   font-size: 0.8rem;
   font-weight: 400;
 }
-.Container-ratio-btn:hover {
+.Card-ratio-btn:hover {
   background-color: hsl(217deg, 12%, 63%);
   transition: all 0.5s ease-in-out;
 }
-.Container-submitBtn {
+.Card-submitBtn {
   background-color: hsl(25deg, 97%, 53%);
   height: 2.5em;
   width: 100%;
@@ -166,13 +166,13 @@ button {
   align-items: center;
   flex-wrap: nowrap;
 }
-.Container-submitBtn-text {
+.Card-submitBtn-text {
   font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
 }
-.Container-submitBtn:hover {
+.Card-submitBtn:hover {
   background: hsl(0deg, 0%, 100%);
   color: hsl(25deg, 97%, 53%);
   transition: all 0.5s ease-in-out;

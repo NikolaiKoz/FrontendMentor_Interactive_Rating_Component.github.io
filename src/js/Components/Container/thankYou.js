@@ -1,6 +1,6 @@
 const thankYou = () => {
 
-    const sumbitBtn = document.querySelector('.Container-submitBtn');
+    const sumbitBtn = document.querySelector('.Card-submitBtn');
 
     sumbitBtn.addEventListener('click', () => {
 
