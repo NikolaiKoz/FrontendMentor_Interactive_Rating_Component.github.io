@@ -1,0 +1,34 @@
+.Thanks{
+    @include flex($justify: center, $align: center,$direction: column);
+    margin: 1em 0 0 0;
+
+    &-imgContainer{
+        margin: 0 0 1em 0;
+    &-img{
+        margin: 0 0 1em 0;
+        width: 100%;
+        max-width: 9em;
+    }
+    }
+
+    &-titleImg{
+        background-color: $Natural--darkBlue;
+        padding: .2em 1em;
+        border-radius: 1em;
+        font-weight: 400;
+        font-size: .8rem;
+        text-align: center;
+        color: $Primary--orange;
+    }
+
+    &-title{
+        margin: 0 0 .5em 0;
+        color: $Natural--white;
+    }
+
+    &-text{
+        font-size: .9rem;
+        text-align: center;
+        color: $Natural--ligthGray;
+    }
+}

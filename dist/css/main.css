@@ -91,7 +91,7 @@ button {
 
 .Card {
   background: linear-gradient(hsl(230deg, 9%, 13%), hsl(228deg, 9%, 10%));
-  height: 20em;
+  height: 21em;
   width: 21em;
   padding: 1.5em;
   border-radius: 0.8em;
@@ -218,6 +218,41 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   animation: 2s desappear infinite;
+}
+
+.Thanks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 1em 0 0 0;
+}
+.Thanks-imgContainer {
+  margin: 0 0 1em 0;
+}
+.Thanks-imgContainer-img {
+  margin: 0 0 1em 0;
+  width: 100%;
+  max-width: 9em;
+}
+.Thanks-titleImg {
+  background-color: hsl(213deg, 19%, 18%);
+  padding: 0.2em 1em;
+  border-radius: 1em;
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-align: center;
+  color: hsl(25deg, 97%, 53%);
+}
+.Thanks-title {
+  margin: 0 0 0.5em 0;
+  color: hsl(0deg, 0%, 100%);
+}
+.Thanks-text {
+  font-size: 0.9rem;
+  text-align: center;
+  color: hsl(217deg, 12%, 63%);
 }
 
 .isActive {
