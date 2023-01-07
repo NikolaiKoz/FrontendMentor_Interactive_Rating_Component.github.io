@@ -18,6 +18,6 @@ const cleanContainer = () => {
   container.classList.add("isDesappear");
 
   setTimeout(() => {
-    container.innerHTML = "";
+    showLoader();
   }, 500);
 };

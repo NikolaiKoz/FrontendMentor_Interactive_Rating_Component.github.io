@@ -6,6 +6,10 @@ const thankYou = () => {
 
         cleanContainer();
 
+        setTimeout(() => {
+            console.log('hola');
+        }, 5000);
+
     });
 
 
