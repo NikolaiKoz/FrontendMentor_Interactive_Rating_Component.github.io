@@ -105,6 +105,19 @@
         transition: all .5s ease-in-out;
     }
 
+    .isDesappear{
+        animation: .5s desappear;
+    }
+
+    @keyframes desappear{
+        0%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+
 
 
 
