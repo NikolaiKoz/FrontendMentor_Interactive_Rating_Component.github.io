@@ -1,6 +1,5 @@
 .Thanks{
     @include flex($justify: center, $align: center,$direction: column);
-    margin: 1em 0 0 0;
 
     &-imgContainer{
         margin: 0 0 1em 0;
@@ -13,12 +12,13 @@
 
     &-titleImg{
         background-color: $Natural--darkBlue;
-        padding: .2em 1em;
+        padding: .5em 1em;
         border-radius: 1em;
         font-weight: 400;
         font-size: .8rem;
         text-align: center;
         color: $Primary--orange;
+        margin: 0 0 1em 0;
     }
 
     &-title{

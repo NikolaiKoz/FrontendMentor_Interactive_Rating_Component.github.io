@@ -226,7 +226,6 @@ button {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  margin: 1em 0 0 0;
 }
 .Thanks-imgContainer {
   margin: 0 0 1em 0;
@@ -238,12 +237,13 @@ button {
 }
 .Thanks-titleImg {
   background-color: hsl(213deg, 19%, 18%);
-  padding: 0.2em 1em;
+  padding: 0.5em 1em;
   border-radius: 1em;
   font-weight: 400;
   font-size: 0.8rem;
   text-align: center;
   color: hsl(25deg, 97%, 53%);
+  margin: 0 0 1em 0;
 }
 .Thanks-title {
   margin: 0 0 0.5em 0;
