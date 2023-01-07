@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "run-sass": "sass --watch ./src/scss:./dist/css",
-    "run-babel": "babel ./src/js/main.js -d ./dist/js --watch"
+    "run-babel": "babel ./src/js/main.js -d ./dist/js --watch",
+    "run-docs": "jsdoc -c jsdoc.json"
   },
   "repository": {
     "type": "git",
