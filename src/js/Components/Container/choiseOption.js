@@ -16,12 +16,16 @@ const choiseOption = () => {
      */
     const allBtn = document.querySelectorAll('.Card-ratio-btn');
 
+    let choise = '';
+
     allBtn.forEach((btn) => {
         btn.addEventListener('click', () => {
             allBtn.forEach((btn) => {
                 btn.classList.remove('isActive');
             });
             btn.classList.add('isActive');
+            choise = btn.children[0].textContent;
+            thankYou(choise);
         });
 
 
