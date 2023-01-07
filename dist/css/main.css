@@ -151,7 +151,7 @@ button {
 }
 .Container-ratio-btn:hover {
   background-color: hsl(217deg, 12%, 63%);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .Container-submitBtn {
   background-color: hsl(25deg, 97%, 53%);
@@ -170,12 +170,12 @@ button {
   font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.5rem;
 }
 .Container-submitBtn:hover {
   background: hsl(0deg, 0%, 100%);
   color: hsl(25deg, 97%, 53%);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .isActive {
@@ -184,7 +184,7 @@ button {
 
 .isActive:hover {
   background: hsl(25deg, 97%, 53%);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 /*# sourceMappingURL=main.css.map */

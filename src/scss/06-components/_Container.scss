@@ -60,7 +60,7 @@
 
         &-btn:hover{
             background-color: $Natural--ligthGray;
-            transition: all .2s ease-in-out;
+            transition: all .5s ease-in-out;
 
         }
 
@@ -80,7 +80,7 @@
             font-size: .8rem;
             font-weight: 600;
             text-transform: uppercase;
-            letter-spacing: .2rem;
+            letter-spacing: .5rem;
         }
 
 
@@ -89,7 +89,7 @@
     &-submitBtn:hover{
         background: $Natural--white;
         color: $Primary--orange;
-        transition: all .2s ease-in-out;
+        transition: all .5s ease-in-out;
 
     }
 
@@ -102,7 +102,7 @@
 
     .isActive:hover{
         background: $Primary--orange;
-        transition: all .2s ease-in-out;
+        transition: all .5s ease-in-out;
     }
 
 
