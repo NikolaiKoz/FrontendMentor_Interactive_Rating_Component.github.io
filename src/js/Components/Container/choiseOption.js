@@ -14,7 +14,7 @@ const choiseOption = () => {
      * @description: This variable is a NodeList of all the buttons.
      * @type: NodeList
      */
-    const allBtn = document.querySelectorAll('.Container-ratio-btn');
+    const allBtn = document.querySelectorAll('.Card-ratio-btn');
 
     allBtn.forEach((btn) => {
         btn.addEventListener('click', () => {
