@@ -1,0 +1,41 @@
+.Loader{
+
+    position: relative;
+
+    &-circle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 7em;
+        width: 7em;
+        border-radius: 50%;
+        border: .5em solid $Primary--orange;
+        border-top: .5em solid $Primary--darkOrange;
+        animation: spin 3s linear infinite;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    &-message{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        font-size: .8rem;
+        color: $Primary--orange;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        animation: 2s desappear infinite;
+    }
+
+
+
+}

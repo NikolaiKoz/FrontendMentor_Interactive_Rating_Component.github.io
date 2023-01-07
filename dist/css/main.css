@@ -199,5 +199,43 @@ button {
     opacity: 0;
   }
 }
+.Loader {
+  position: relative;
+}
+.Loader-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7em;
+  width: 7em;
+  border-radius: 50%;
+  border: 0.5em solid hsl(25deg, 97%, 53%);
+  border-top: 0.5em solid hsl(33deg, 18%, 10%);
+  animation: spin 3s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.Loader-message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 0.8rem;
+  color: hsl(25deg, 97%, 53%);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  animation: 2s desappear infinite;
+}
 
 /*# sourceMappingURL=main.css.map */
