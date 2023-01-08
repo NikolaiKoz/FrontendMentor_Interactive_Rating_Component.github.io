@@ -1,3 +1,4 @@
+import { cleanContainer } from "./cleanContainer";
 /**
  * @author: Vallejos Jose Luis.
  * @function: thankYou
@@ -6,8 +7,6 @@
  * @param {number} choise
  * @return: none
  */
-import { cleanContainer } from "./cleanContainer";
-
 export const thankYou = (choise) => {
   /**
    * @name: choiseValue

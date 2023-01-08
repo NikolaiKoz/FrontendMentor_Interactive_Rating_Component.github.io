@@ -1,3 +1,5 @@
+import { showLoader } from "./showLoader";
+
 /**
  * @author: Vallejos Jose Luis.
  * @function: cleanContainer
@@ -6,9 +8,6 @@
  * @param: none
  * @return: none
  */
-
-import { showLoader } from "./showLoader";
-
 export const cleanContainer = () => {
   /**
    * @name: container

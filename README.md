@@ -1,28 +1,30 @@
-
-
-STYLES METODOLOGY SUITCSS
-
-
-
-# COMAND LINE
-
-Inicializar un proyecto de node
-npm init
-
-SASS
-npm install -g sass
-SCRIPT: "run-sass": "sass --watch ./src/scss:./dist/css"
-
-
-Babel
-npm install --save-dev @babel/core @babel/cli @babel/preset-env
-SCRIPT: "run-babel": "babel ./src/js -d ./dist/js"
-
+<div align="center">
 
 #
-#
-#
-COMIENZA AQUI
+
+<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
+<img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
+<img alt="" src="https://img.shields.io/github/repo-size/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
+<img alt="GitHub Issues" src="https://img.shields.io/github/issues/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
+<img alt="GitHub Closed Issues" src="https://img.shields.io/github/issues-closed/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
+<img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
+<img alt="GitHub Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
+<img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
+<img alt="GitHub Commit Activity (Week)" src="https://img.shields.io/github/commit-activity/w/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
+<img alt="Github License" src="https://img.shields.io/github/license/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
+
+</div>
+
+
+
+<div align="center">
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,sass)](https://skillicons.dev)
+
+
+</div>
+
 # Interactive Rating Component
 
 - [About the project](#about-the-project)
@@ -31,13 +33,12 @@ COMIENZA AQUI
 - [Metodologies](#metodologies)
   - [SUITCSS](#suitcss)
 - [Tools](#tools)
-  - [Figma](#figma)
-  - [Slack](#slack)
   - [Jira](#jira)
   - [SASS](#sass)
   - [SassDoc](#sassdoc)
   - [Babel](#babel)
   - [JsDoc](#jsdoc)
+  - [Webpack](#webpack)
 
 
 ## About the project
@@ -57,8 +58,6 @@ COMIENZA AQUI
 
 </div>
 
-- [x] Figma
-- [x] Slack
 - [x] Jira
 - [x] SASS
 - [x] SuitCSS
@@ -66,28 +65,10 @@ COMIENZA AQUI
 - [x] Sassdoc
 - [x] Babel
 - [x] Jsdoc
+- [x] Webpack
 
 
-<div align="center">
 
-#
-
-[![My Skills](https://skillicons.dev/icons?i=html,css,sass,js,figma)](https://skillicons.dev)
-#
-
-<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
-<img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
-<img alt="" src="https://img.shields.io/github/repo-size/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
-<img alt="GitHub Issues" src="https://img.shields.io/github/issues/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
-<img alt="GitHub Closed Issues" src="https://img.shields.io/github/issues-closed/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
-<img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
-<img alt="GitHub Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
-<img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
-<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
-<img alt="GitHub Commit Activity (Week)" src="https://img.shields.io/github/commit-activity/w/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
-<img alt="Github License" src="https://img.shields.io/github/license/nikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io" />
-
-</div>
 
 #
 
@@ -189,19 +170,52 @@ Regarding the organization of the style files and folders, SUITCSS does not have
 
 ## Tools
 
-### Figma
-
-### Slack
-
 ### Jira
+
+- JiRA is a project management tool that allows you to plan, track, and manage your software development projects. It is used by software teams around the world to manage their projects and tasks.
+
+For this project I use it together with agile methodologies to organize my programming springs.
+
+<div align="center">
+
+  | My board |
+  | :-: |
+  | <img width=600 alt="Desktop desing" src="./assets/images/Jira.png" >  |
+
+</div>
 
 ### SASS
 
+- SASS is a CSS preprocessor that allows you to use variables, nested rules, mixins, functions, and other features that do not exist in CSS. It also helps to keep things organized and allows you to create styles that are more DRY and maintainable.
+
+- [x] <a href="https://sass-lang.com/" title="sass documentation" target="_blank">SASS documentation</a>
+
 ### SassDoc
+
+- SassDoc is a tool for generating documentation for Sass projects. It allows you to create a documentation website for your project with a single command.
+
+- [x] <a href="http://sassdoc.com/" title="sass documentation" target="_blank">SassDoc documentation</a>
 
 ### Babel
 
+- Babel is a JavaScript compiler that allows you to use the latest JavaScript features in your projects. It is used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript that can be run by older JavaScript engines.
+
+- [x] <a href="https://babeljs.io/" title="babel documentation" target="_blank">Babel documentation</a>
+
+### Webpack
+
+- Webpack is a module bundler that allows you to bundle JavaScript files for usage in a browser. It also allows you to use loaders to preprocess files and you can add plugins to perform a wider variety of tasks.
+
+- [x] <a href="https://webpack.js.org/" title="webpack documentation" target="_blank">Webpack documentation</a>
+
 ### JsDoc
+
+- JsDoc is a tool for generating documentation for JavaScript projects. It allows you to create a documentation website for your project with a single command.
+
+**See my documentation** <a href="./docs/index.html" title="jsdoc documentation" target="_blank">here</a>
+
+- [x] <a href="https://jsdoc.app/" title="jsdoc documentation" target="_blank">JsDoc documentation</a>
+
 
 #
 

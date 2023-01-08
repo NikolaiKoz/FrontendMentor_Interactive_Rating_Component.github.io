@@ -6,7 +6,6 @@
  * @param: none
  * @return: none
  */
-
 export const showLoader = () => {
   /**
    * @name: loader

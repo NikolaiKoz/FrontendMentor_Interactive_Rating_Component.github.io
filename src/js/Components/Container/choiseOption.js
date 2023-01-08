@@ -1,3 +1,4 @@
+import { thankYou } from "./thankYou";
 /**
  * @author: Vallejos Jose Luis.
  * @function: choiseOption
@@ -6,9 +7,6 @@
  * @param: none
  * @return: none
  */
-
-import { thankYou } from "./thankYou";
-
 export const choiseOption = () => {
   /**
    * @name: allBtn

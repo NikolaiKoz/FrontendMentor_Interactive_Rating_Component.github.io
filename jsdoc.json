@@ -1,9 +1,9 @@
 {
     "plugins": [],
     "source": {
-      "include": ["js"],
+      "include": ["./src/js"],
       "includePattern": ".js$",
-      "excludePattern": "(node_modules|docs)"
+      "excludePattern": "(node_modules|docs|test)"
     },
     "templates": {
       "cleverLinks": false,
@@ -11,6 +11,7 @@
     },
     "opts": {
       "recurse": true,
-      "destination": "./docs"
+      "destination": "./docs",
+      "readme": "./README.md"
     }
   }
