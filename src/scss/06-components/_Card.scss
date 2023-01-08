@@ -1,0 +1,97 @@
+.Card {
+  background: linear-gradient($Natural--mediumGray, $Natural--gradientGray);
+  height: 21em;
+  width: 21em;
+  padding: 1.5em;
+  border-radius: 0.8em;
+  font-family: "Overpass", sans-serif;
+  color: $Natural--white;
+  font-size: 1rem;
+
+  &-containerStar {
+    background-color: $Natural--darkBlue;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    margin-bottom: 1em;
+
+    @include flex($justify: center, $align: center);
+
+    &-star {
+      display: block;
+    }
+  }
+
+  &-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1em;
+  }
+
+  &-text {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 1em;
+    color: $Natural--ligthGray;
+  }
+
+  &-ratio {
+    @include flex($justify: space-between, $align: center);
+    margin-bottom: 1em;
+
+    &-btn {
+      background-color: $Natural--darkBlue;
+      height: 2.2em;
+      width: 2.2em;
+      border-radius: 50%;
+      cursor: pointer;
+
+      @include flex($justify: center, $align: center);
+
+      &-number {
+        padding-top: 0.1em;
+        font-size: 0.8rem;
+        font-weight: 400;
+      }
+    }
+
+    &-btn:hover {
+      background-color: $Natural--ligthGray;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+
+  &-submitBtn {
+    background-color: $Primary--orange;
+    height: 2.5em;
+    width: 100%;
+    border-radius: 1.5em;
+    color: $Natural--white;
+    cursor: pointer;
+
+    @include flex($justify: center, $align: center);
+
+    &-text {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5rem;
+    }
+  }
+
+  &-submitBtn:hover {
+    background: $Natural--white;
+    color: $Primary--orange;
+    transition: all 0.5s ease-in-out;
+  }
+
+  &-errorMessage {
+    font-size: 2rem;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    @include flex($justify: center, $align: center);
+    color: $Primary--orange;
+  }
+}

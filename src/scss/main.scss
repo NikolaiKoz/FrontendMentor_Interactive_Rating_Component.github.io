@@ -1,0 +1,33 @@
+////
+/// This is a main file of the project
+/// @author:  Jose Luis Vallejos
+/// @name:  Main.scss
+////
+
+// 01-settings
+@import './01-settings/_colors.scss';
+@import './01-settings/_typography.scss';
+
+// 02-tools
+@import './02-tools/_tools.scss';
+
+// 03-generic
+@import './03-generic/_normalice.scss';
+
+// 04-elements
+@import './04-elements/_body.scss';
+@import './04-elements/_main.scss';
+@import './04-elements/_button.scss';
+
+// 05-objects
+@import './05-objects/_objects.scss';
+
+// 06-components
+@import './06-components/_Card.scss';
+@import './06-components/_Loader.scss';
+@import './06-components/_Thanks.scss';
+
+
+// 07-trumps
+@import './07-utilities/_states.scss';
+@import './07-utilities/_animations.scss';

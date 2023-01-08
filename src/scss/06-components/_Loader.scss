@@ -1,0 +1,31 @@
+.Loader {
+  height: 100%;
+  position: relative;
+
+  @include flex($justify: center, $align: center);
+
+  &-circle {
+    @include flex($justify: center, $align: center);
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    border: 0.5em solid $Primary--orange;
+    border-top: 0.5em solid $Primary--darkOrange;
+    animation: spin 3s linear infinite;
+  }
+
+  &-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    @include flex($justify: center, $align: center);
+    font-weight: 900;
+    font-size: 0.8rem;
+    color: $Primary--orange;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    animation: 2s desappear infinite;
+  }
+}

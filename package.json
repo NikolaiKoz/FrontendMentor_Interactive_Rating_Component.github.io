@@ -1,0 +1,37 @@
+{
+  "name": "frontendmentor_interactive_rating_component.github.io",
+  "version": "1.0.0",
+  "description": "Interactive rating component challenge",
+  "main": "index.js",
+  "scripts": {
+    "run-sass": "sass --watch ./src/scss:./dist/css",
+    "run-babel": "babel ./src/js/-d ./dist/js --watch",
+    "run-jsdocs": "jsdoc -c jsdoc.json",
+    "run-sassdoc": "sassdoc ./src/scss",
+    "run-webpack": "webpack --watch",
+    "run": "npm run run-sass & npm run run-babel & npm run run-jsdocs & npm run run-sassdoc & npm run run-webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io.git"
+  },
+  "author": "Jose Luis Vallejos",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/NikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io/issues"
+  },
+  "homepage": "https://github.com/NikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io#readme",
+  "dependencies": {
+    "jsdoc": "^4.0.0",
+    "sass": "^1.57.1",
+    "sassdoc": "^2.7.4",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "webpack-cli": "^5.0.1"
+  }
+}

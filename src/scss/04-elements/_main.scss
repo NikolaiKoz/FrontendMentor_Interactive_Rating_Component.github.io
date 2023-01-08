@@ -1,0 +1,6 @@
+main{
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    @include flex($justify: center, $align: center);
+}
