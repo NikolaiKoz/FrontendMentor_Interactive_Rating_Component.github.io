@@ -40,6 +40,7 @@
   - [ITCSS](#itcss)
 - [Metodologies](#metodologies)
   - [SUITCSS](#suitcss)
+- [CSS Specificity](#css-specificity)
 - [Tools](#tools)
   - [Jira](#jira)
   - [SASS](#sass)
@@ -218,6 +219,32 @@ Regarding the organization of the style files and folders, SUITCSS does not have
 .MyComponent-anotherPart {}
 
 - [x] <a href="https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md" title="suit css documentation" target="_blank">SUIT CSS naming conventions</a>
+
+#
+
+### CSS Specificity
+
+- **CSS specificity** is a set of rules that determines which CSS rules apply to a given element. It is based on the number of selectors in a rule and the specificity of each selector. The more specific a selector is, the higher its specificity will be.
+
+- **The specificity of a selector is calculated as follows:**
+
+  - Inline styles have a specificity of 1000.
+  - IDs have a specificity of 100.
+  - Classes, attributes and pseudo-classes have a specificity of 10.
+  - Elements and pseudo-elements have a specificity of 1.
+
+<div align="center">
+
+|                               My graph                              |
+| :------------------------------------------------------------------: |
+| <img width=600 alt="Desktop desing" src="./assets/images/cssspecificity.png" > |
+
+</div>
+
+- [x] <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity" title="css specificity docs" target="_blank">CSS specificity docs</a>
+
+- [x] <a href="https://jonassebastianohlsson.com/specificity-graph/" title="css specificity graph generator" target="_blank">CSS specificity graph generator</a>
+
 
 #
 
