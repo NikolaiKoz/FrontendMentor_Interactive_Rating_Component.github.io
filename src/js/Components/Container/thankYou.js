@@ -7,12 +7,11 @@
  * @return: none
  */
 const thankYou = (choise) => {
-
-    /**
-     * @name: choiseValue
-     * @description: This variable is the structure html.
-     * @type: html string
-     */
+  /**
+   * @name: choiseValue
+   * @description: This variable is the structure html of the message of thank you and another message if the user don't select an option.
+   * @type: html string
+   */
   let choiseValue = "";
 
   if (choise) {
@@ -30,6 +29,10 @@ const thankYou = (choise) => {
       </section>
     </section>
         `;
+  } else {
+    choiseValue = `
+    <p class="Card-errorMessage">You must select an option!</p>
+    `;
   }
 
   /**
