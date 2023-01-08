@@ -19,6 +19,11 @@
 
     <h1 class="page-title">Home</h1>
 
+    
+
+
+
+    
 
 
     <h3> </h3>
@@ -54,10 +59,23 @@
 </div>
 <div align="center">
 <p><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,js,sass" alt="My Skills"></a></p>
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+    </a>
+</p>
 </div>
 <h1>Interactive Rating Component</h1>
 <ul>
-<li><a href="#about-the-project">About the project</a></li>
+<li><a href="#about-the-project">About the project</a>
+<ul>
+<li><a href="#deploy">Deploy</a></li>
+<li><a href="#see-in-your-code-editor">See in your code editor</a></li>
+<li><a href="#edit-in-your-code-editor">Edit in your code editor</a></li>
+</ul>
+</li>
 <li><a href="#architectures">Architectures</a>
 <ul>
 <li><a href="#itcss">ITCSS</a></li>
@@ -68,6 +86,7 @@
 <li><a href="#suitcss">SUITCSS</a></li>
 </ul>
 </li>
+<li><a href="#css-specificity">CSS Specificity</a></li>
 <li><a href="#tools">Tools</a>
 <ul>
 <li><a href="#jira">Jira</a></li>
@@ -80,6 +99,52 @@
 </li>
 </ul>
 <h2>About the project</h2>
+<h3>Deploy</h3>
+<p>This project is deployed in <a href="https://pages.github.com/">Github Pages</a>, click on the link below to see it in action:</p>
+<ul>
+<li><a href="https://nikolaikoz.github.io/FrontendMentor_Interactive_Rating_Component.github.io/">Interactive Rating Component</a></li>
+</ul>
+<h3>See in your code editor</h3>
+<ul>
+<li>First, copy the repository link:</li>
+<li>Then, open your terminal and run the following command:</li>
+</ul>
+<pre class="prettyprint source lang-bash"><code>git clone https://github.com/NikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io.git
+</code></pre>
+<ul>
+<li>
+<p>Finally, open the project in your code editor and open the index.html in the root folder file with your browser, with the Live Server extension.</p>
+</li>
+<li>
+<p>Give it a star ⭐ if you like it!</p>
+</li>
+</ul>
+<h3>Edit in your code editor</h3>
+<ul>
+<li>First, copy the repository link:</li>
+<li>Then, open your terminal and run the following command:</li>
+</ul>
+<pre class="prettyprint source lang-bash"><code>git clone https://github.com/NikolaiKoz/FrontendMentor_Interactive_Rating_Component.github.io.git
+</code></pre>
+<ul>
+<li>Finally, open the project in your code editor and install the dependencies with the following command:</li>
+</ul>
+<pre class="prettyprint source lang-bash"><code>npm install
+</code></pre>
+<ul>
+<li>Then, can edit the project in your code editor, run the following command to see the changes in your browser, with the Live Server extension.</li>
+</ul>
+<pre class="prettyprint source lang-bash"><code>npm run run
+</code></pre>
+<ul>
+<li>Don't forget to document your code with JsDoc and SassDoc, run the following command to see the changes in your browser, with the Live Server extension.</li>
+</ul>
+<pre class="prettyprint source lang-bash"><code>npm run run
+</code></pre>
+<ul>
+<li>Give it a star ⭐ if you like it!</li>
+</ul>
+<h1></h1>
 <ul>
 <li>This is a nice, small project to practice handling user interactions and updating the DOM. It is a simple project to implement the new technologies that I am learning in a single project.</li>
 </ul>
@@ -140,7 +205,8 @@
 <li>
 <p>📁 src</p>
 <ul>
-<li>📁 scss
+<li>
+<p>📁 scss</p>
 <ul>
 <li>
 <p>📁 01-settings</p>
@@ -256,6 +322,44 @@
 <li>[x] <a href="https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md" title="suit css documentation" target="_blank">SUIT CSS naming conventions</a></li>
 </ul>
 <h1></h1>
+<h3>CSS Specificity</h3>
+<ul>
+<li>
+<p><strong>CSS specificity</strong> is a set of rules that determines which CSS rules apply to a given element. It is based on the number of selectors in a rule and the specificity of each selector. The more specific a selector is, the higher its specificity will be.</p>
+</li>
+<li>
+<p><strong>The specificity of a selector is calculated as follows:</strong></p>
+<ul>
+<li>Inline styles have a specificity of 1000.</li>
+<li>IDs have a specificity of 100.</li>
+<li>Classes, attributes and pseudo-classes have a specificity of 10.</li>
+<li>Elements and pseudo-elements have a specificity of 1.</li>
+</ul>
+</li>
+</ul>
+<div align="center">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">My graph</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img width=600 alt="Desktop desing" src="../assets/images/cssspecificity.png" ></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
+<li>
+<p>[x] <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity" title="css specificity docs" target="_blank">CSS specificity docs</a></p>
+</li>
+<li>
+<p>[x] <a href="https://jonassebastianohlsson.com/specificity-graph/" title="css specificity graph generator" target="_blank">CSS specificity graph generator</a></p>
+</li>
+</ul>
+<h1></h1>
 <h2>Tools</h2>
 <h3>Jira</h3>
 <ul>
@@ -287,12 +391,11 @@
 </ul>
 <h3>SassDoc</h3>
 <ul>
-<li>
-<p>SassDoc is a tool for generating documentation for Sass projects. It allows you to create a documentation website for your project with a single command.</p>
-</li>
-<li>
-<p>[x] <a href="http://sassdoc.com/" title="sass documentation" target="_blank">SassDoc documentation</a></p>
-</li>
+<li>SassDoc is a tool for generating documentation for Sass projects. It allows you to create a documentation website for your project with a single command.</li>
+</ul>
+<p><strong>See my Sass documentation</strong> <a href="https://nikolaikoz.github.io/FrontendMentor_Interactive_Rating_Component.github.io/sassdoc/index.html" title="sass documentation" target="_blank">here</a></p>
+<ul>
+<li>[x] <a href="http://sassdoc.com/" title="sass documentation" target="_blank">SassDoc documentation</a></li>
 </ul>
 <h3>Babel</h3>
 <ul>
@@ -316,7 +419,7 @@
 <ul>
 <li>JsDoc is a tool for generating documentation for JavaScript projects. It allows you to create a documentation website for your project with a single command.</li>
 </ul>
-<p><strong>See my documentation</strong> <a href="./docs/index.html" title="jsdoc documentation" target="_blank">here</a></p>
+<p><strong>See my documentation</strong> <a href="https://nikolaikoz.github.io/FrontendMentor_Interactive_Rating_Component.github.io/docs/index.html" title="jsdoc documentation" target="_blank">here</a></p>
 <ul>
 <li>[x] <a href="https://jsdoc.app/" title="jsdoc documentation" target="_blank">JsDoc documentation</a></li>
 </ul>
@@ -337,7 +440,7 @@
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.0</a> on Sun Jan 08 2023 05:39:58 GMT-0300 (hora estándar de Argentina)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.0</a> on Sun Jan 08 2023 07:08:36 GMT-0300 (hora estándar de Argentina)
 </footer>
 
 <script> prettyPrint(); </script>
