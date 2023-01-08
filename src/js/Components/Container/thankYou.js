@@ -6,7 +6,9 @@
  * @param {number} choise
  * @return: none
  */
-const thankYou = (choise) => {
+import { cleanContainer } from "./cleanContainer";
+
+export const thankYou = (choise) => {
   /**
    * @name: choiseValue
    * @description: This variable is the structure html of the message of thank you and another message if the user don't select an option.
@@ -55,5 +57,3 @@ const thankYou = (choise) => {
     }, 7000);
   });
 };
-
-thankYou();

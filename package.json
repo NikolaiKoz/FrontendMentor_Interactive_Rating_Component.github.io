@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "run-sass": "sass --watch ./src/scss:./dist/css",
-    "run-babel": "babel ./src/js/main.js -d ./dist/js --watch",
+    "run-babel": "babel ./src/js/-d ./dist/js --watch",
     "run-docs": "jsdoc -c jsdoc.json"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "@babel/cli": "^7.20.7",
     "@babel/core": "^7.20.7",
     "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
     "webpack-cli": "^5.0.1"
   }
 }

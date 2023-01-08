@@ -7,7 +7,9 @@
  * @return: none
  */
 
-const cleanContainer = () => {
+import { showLoader } from "./showLoader";
+
+export const cleanContainer = () => {
   /**
    * @name: container
    * @description: This variable is the Container of the card.

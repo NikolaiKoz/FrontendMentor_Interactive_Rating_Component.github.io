@@ -7,7 +7,7 @@
  * @return: none
  */
 
-const showLoader = () => {
+export const showLoader = () => {
   /**
    * @name: loader
    * @description: This variable is the structure html.

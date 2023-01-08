@@ -7,7 +7,9 @@
  * @return: none
  */
 
-const choiseOption = () => {
+import { thankYou } from "./thankYou";
+
+export const choiseOption = () => {
   /**
    * @name: allBtn
    * @description: This variable is a NodeList of all the buttons.
@@ -36,5 +38,3 @@ const choiseOption = () => {
     });
   });
 };
-
-choiseOption();
