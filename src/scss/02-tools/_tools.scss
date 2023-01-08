@@ -1,3 +1,13 @@
+/// This is a mixin for flexbox
+/// @group Tools
+/// @author Jose Luis Vallejos
+/// @name Tools
+/// @access public
+/// @param {String} $flex - default flex property
+/// @param {String} $direction - flex-direction property, default row
+/// @param {String} $justify - justify-content property, default center
+/// @param {String} $align - align-items property, default center
+/// @param {String} $wrap - flex-wrap property, default nowrap
 @mixin flex($display: flex, $direction: row, $justify: center, $align: center, $wrap: nowrap){
     display: $display;
     flex-direction: $direction;

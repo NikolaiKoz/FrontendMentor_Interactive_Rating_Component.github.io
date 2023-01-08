@@ -194,6 +194,8 @@ For this project I use it together with agile methodologies to organize my progr
 
 - SassDoc is a tool for generating documentation for Sass projects. It allows you to create a documentation website for your project with a single command.
 
+**See my Sass documentation** <a href="./sassdoc/index.html" title="sass documentation" target="_blank">here</a>
+
 - [x] <a href="http://sassdoc.com/" title="sass documentation" target="_blank">SassDoc documentation</a>
 
 ### Babel
